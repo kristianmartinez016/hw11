@@ -3,6 +3,18 @@
 	src: url("./assets/AylaHandwritten-Regular.ttf");
 }
 
+.silkscreen-regular {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silkscreen-bold {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -56,6 +68,7 @@ p{
 }
 
 .hsl {
+  font-family: 'Silkscreen', cursive;
   background-color: hsl(0, 60%, 34%);
   color: hsla(0, 0%, 95%, .8);
   border: 5px solid hsl(0, 87%, 59%);
